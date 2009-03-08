@@ -1,3 +1,0 @@
-primes = 2 : [x| x <- [3,5..], y <- [3..x], x `mod` y /= 0]
-
-main = do print $ takeWhile (<10) primes
